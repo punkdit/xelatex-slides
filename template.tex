@@ -1,0 +1,73 @@
+
+\documentclass[11pt]{article}
+\usepackage[%
+  papersize={12.8cm,9.6cm},
+  hmargin=1cm,%
+  vmargin=1cm,%
+  head=0.4cm,%
+  headsep=0pt,%
+  foot=0.5cm%
+]{geometry}% http://ctan.org/pkg/geometry
+
+\usepackage{setspace}
+\renewcommand{\baselinestretch}{1.3} 
+
+% xelatex:
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setromanfont{Gentium Book Basic} % more bold
+
+\RequirePackage{graphicx}
+\usepackage{color}
+\usepackage{amsfonts}
+
+
+\def\heading #1{\centerline{\underline{\bf\LARGE #1}}}
+\def\vsp {\vspace*{0.5cm}}
+\def\hsp {\ \ \ \ }
+
+\begin{document}
+
+\large
+
+\pagenumbering{gobble}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\vspace*{1.0cm}
+\centerline{\LARGE This is the title}
+\vspace{1.5cm}
+
+\centerline{\Large Albert Smith}
+
+\vspace{0.5cm}
+
+\centerline{April 9th, 2028}
+
+\vsp
+\centerline{my@emailhere.zap}
+
+\newpage %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Large
+
+\vsp
+\noindent
+Here is a slide
+
+these lines are indented
+
+these lines are indented
+
+these lines are indented
+
+\newpage %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\noindent
+%\includegraphics[width=0.25\textwidth]{example.pdf}
+%\vsp
+
+
+\end{document} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
